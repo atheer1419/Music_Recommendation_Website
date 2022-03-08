@@ -1,0 +1,66 @@
+label{
+    color: #487e63;
+    font-family: "Bradley Hand, cursive	";
+    font-size: 15px;
+}
+
+.formTable{
+   margin-left: 50px; 
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(180, 180, 180);
+    height: 18px;
+    box-shadow: 0 10px 30px 0 rgba(255, 255, 255, 0.2), 0 10px 30px 0 rgba(255, 255, 255, 0.19);
+}
+
+.my-button {
+    background-color: #e7b2c4;
+    color: white;
+    font-family: "Bradley Hand, cursive	";
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 20px;
+    margin-left: 30px;
+    border-radius: 10px;
+    border: 2px solid #e7b2c4;
+    margin-top: 10px;
+}
+
+.my-button:hover {
+    background-color: #ffffff;
+    color: #e7b2c4;
+    border: 2px solid #FFFFFF;
+    outline: none;
+}
+
+.my-button:active {
+    color: #3d8577;
+    border: 2px solid #FFFFFF;
+    outline: none;
+}
+
+.genre-option {
+    background-color: #ffffff;
+    color: rgb(80, 77, 77);
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 10px;
+    width: 50%;
+    text-align: left;
+    border-color: rgb(180, 180, 180);
+    height: 40px;
+
+}
+
+.headingstyle{
+    color: #487e63;
+    font-family: "Bradley Hand, cursive	";
+    line-height: 2.5em;
+    margin-left: 30px;
+    font-size: 25px;
+}

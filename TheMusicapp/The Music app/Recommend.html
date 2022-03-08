@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" content="HTML"/>
+    <title>Recommend a song!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+
+  <table class="formTable" >
+
+    <thead>
+
+      <tr>
+           <th colspan="2"><img class="logo" src="logo.png" width="120" height="40" > 
+             
+              <nav>
+                  <ul> 
+                  <li> <a class="navLinks" href="index.html"> Home</a></li>
+                  <li> <a class="navLinks" href="browse.html"> Browse</a></li>
+                  <li> <a class="navLinks" href="search.html"> Search</a></li>
+                   <li> <a class="navLinks" href="Recommend.html"> Recommend</a></li>
+                  </ul>
+              </nav>
+          
+          </th>
+
+
+      </tr>
+
+  </thead>
+
+    <tr>
+      <td>
+<p class="recommendParagraph"><b> Recommend</b> <br>
+    A Song! </p>
+      </td>
+
+      <td>
+        <form class="formrecommend" action="#" method="POST">
+          <label> Title: </label>
+          <input class="input-field" type="text" placeholder="Enter The Song Title" name="songName">
+          <br>
+          <label> Artist: </label>
+          <input class="input-field" type="text" placeholder="Enter The Artist Name" name="ArtistName">
+          <br>
+
+          <label>Genre: </label>
+          <br>
+          <select class="genre-option" name="genre">
+            <option value="0">Select A Genre </option>
+            <option value="POP">POP</option>
+            <option value="ROCK">ROCK</option>
+            <option value="ALTERNATIVE">ALTERNATIVE</option>
+            <option value="RB">R&B</option>
+        </select>
+        <br>
+        <br>
+
+        <label> Album: </label>
+        <input class="input-field" type="text" placeholder="Enter The Album Name" name="albumName">
+        <br>
+
+        <label> Link: </label>
+        <input class="input-field" type="text" placeholder="Enter Song Link (Youtube, Apple Music ...etc)" name="albumName">
+        <br>
+
+        <label>Song Language: </label>
+        <br>
+        <br>
+          <input type="radio" id="arabic" name="language" value="arabic">
+          <label for="arabic">Arabic</label><br>
+          <input type="radio" id="english" name="language" value="english">
+          <label for="english">English</label><br>
+          <input type="radio" id="Korean" name="language" value="korean">
+          <label for="Korean">Korean</label>
+        <br>
+          <input type="radio" id="french" name="language" value="french">
+          <label for="french">French</label>
+        <br>
+          <input type="radio" id="instrumental" name="language" value="instrumental">
+          <label for="instrumental">Instrumental</label>
+
+        <br>
+        <br>
+        <br>
+
+        <button class="my-button" type="submit" name="submit"> Recommend! </button>
+        <button class="my-button" type="cleae" name="clear"> Clear</button>
+
+
+        </form>
+      </td>
+
+    </tr>
+
+    
+
+    <tfoot>
+      <tr>
+          <td >
+              <p class="signature"><strong> Group member</strong><br><br>
+                  AtheerAlghamdi<br>
+                  Maha Benaider<br>
+                  Rina Alfarsi<br>
+                  Ghada Alsulmi<br>
+              
+              </p>
+          </td>
+
+          <td>
+              <p class="contact"><strong> Contacts</strong><br><br>
+                  <a  class="emailLink" href="mailto:someone@example.com">Email</a><br>
+                  Mobile<br>
+              </p>
+
+          </td>
+      
+       </tr>
+  </tfoot>
+
+  </table>
+
+</body>
+</html>

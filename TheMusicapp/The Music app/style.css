@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+body{
+    background-color: #1A1928;
+    font-family: 'Montserrat', sans-serif;
+}
+table{
+    width: 90%;
+}
+.homeImge{
+    
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+
+    margin-left: 550px;
+
+}
+
+.logo{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+
+nav{
+    position: absolute;
+    left: 300px;
+    top: 43px;
+}
+
+li{
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+  }
+
+  .navLinks{
+      padding-left: 40px;
+      text-decoration: none;
+      color: white;
+  }
+  /* Search */
+  .navLinks:active{
+      color: yellow;
+      text-decoration: underline;
+  }
+
+  .mainParagraph{
+      text-transform:uppercase;
+      color: white;
+        font-size: 65px;
+        margin-top: 150px;
+
+        text-align: center;
+        
+  }
+  .sideParagraph{
+    color: white;
+    font-size: 15px;
+    /* text-align: center; */
+    position: absolute;
+    top: 430px;
+    left: 560px;
+  }
+
+  /* Button */
+  .my-button1 {
+    background-color: #F1067B;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 15px;
+    padding: 5px 20px;
+    /* margin-left: 30px; */
+    border-radius: 50px;
+    /* margin-top: 10px; */
+    border: 1px solid #F1067B;
+
+    position: absolute;
+    top: 530px;
+    left: 700px;
+}
+
+.my-button1:hover {
+    background-color: #c00c66;
+    border: 1px solid #c00c66;
+    color: #ffffff;
+    
+  
+}
+
+.horLine{
+
+
+}
+
+
+.signature{
+    color: white;
+
+    margin-left: 30px;
+
+    
+}
+.contact{
+    color: white;
+    position: absolute;
+    left: 600px;
+    top: 785px;
+    /* line-height: 4px; */
+}
+.emailLink{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+/*recommend page*/
+
+label{
+    color: white;
+    font-size: 15px;
+}
+
+.formTable{
+   margin-left: 50px; 
+}
+
+.input-field {
+    width: 90%;
+    background: transparent;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(180, 180, 180);
+    height: 18px;
+}
+
+.my-button {
+    background-color:  #F1067B;
+    color: white;
+    font-size: 16px;
+    padding: 5px 20px;
+    margin-left: 30px;
+    border-radius: 10px;
+    border: 1px solid  #F1067B;
+    margin-top: 10px;
+}
+
+.my-button:hover {
+    background-color: #c00c66;
+    border: 1px solid #c00c66;
+    color: #ffffff;
+}
+
+.genre-option {
+    background: transparent;
+    color: rgb(80, 77, 77);
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 10px;
+    width: 50%;
+    text-align: left;
+    border-color: rgb(180, 180, 180);
+    height: 40px;
+}
+
+.recommendParagraph{
+    text-transform:uppercase;
+    color: white;
+      font-size: 40px;
+      margin-left: 60px;
+      text-align: left;
+}
+  .formrecommend{
+    margin-top: 150px;
+  }

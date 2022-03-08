@@ -1,0 +1,485 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+
+/* ######################------All Pages-----###################### */
+
+span{
+  color: red;
+}
+body{
+    background-color: #1A1928;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+label{
+    color: white;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+table{
+    width: 90%;
+    margin-left: 60px;
+}
+th, td {
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 30px;
+padding-right: 20px;
+
+text-align:left;
+
+}
+
+tr{
+height: 50px;
+}
+
+.PagesHeadline{
+    color: white;
+
+}
+
+.footerEmail a{
+    text-decoration: none;
+    color: white;
+}
+.footerEmail a:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 230);
+}
+/* ////////////////////------Footer-----////////////////////// */
+
+
+.signature{
+    color: white;
+    margin-left: 30px;
+
+    
+}
+.contact{
+    color: white;
+    margin-bottom: 55px;
+}
+.emailLink{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+/* ////////////////////------IMAGES-----////////////////////// */
+
+.homeImge{  
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    margin-left: 550px;
+}
+.searchImge{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    margin-left: 930px;
+
+}
+
+.recommendImge{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    margin-top: 250px;
+    margin-left: 0px;
+}
+.browseImge{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    margin-top: 180px;
+    margin-left: 790px;
+}
+
+.logo{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+
+/* ////////////////////------Navigater bar-----////////////////////// */
+
+nav{
+    position: absolute;
+    left: 300px;
+    top: 43px;
+}
+
+.hover-nav li{
+    display: inline;
+}
+
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+  }
+
+  .navLinks{
+      padding-left: 40px;
+      text-decoration: none;
+      color: white;
+      font-weight: lighter;
+
+  }
+.hover-nav li a {
+  display: inline-block;
+  position: relative;
+  color: #ffffff;
+}
+
+li a:after {
+  content: '';
+  position: absolute;
+  bottom:0px;
+  left: 40px;
+  width:60%;
+  height: 2px;
+  transform: scaleX(0);
+  background-color: #F0C776;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+
+}
+
+li a:hover:after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* ######################------Home Page-----###################### */
+
+.mainParagraph{
+      text-transform:uppercase;
+      color: white;
+        font-size: 65px;
+        margin-top: 150px;
+
+        text-align: center;
+        
+  }
+.sideParagraph{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 430px;
+    left: 560px;
+  }
+/* ////////////////////------Home Page Button-----////////////////////// */
+
+.tryIt-button-homePage  {
+    position: relative;
+    cursor: pointer;
+    border: none;
+    width: 130px;
+    height: 50px;
+    border-radius: 50px;
+    outline: none;
+    background: linear-gradient(90deg, #EC37D0, #D92B2B, #FFAA0D, #EC37D0);
+    background-size: 400%;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 530px;
+    left: 680px;
+  }
+  .tryIt-button-homePage::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: linear-gradient(90deg, #EC37D0, #D92B2B, #FFAA0D, #EC37D0);
+    background-size: 400%;
+    border-radius: 50px;
+    opacity: 0;
+    transition: .5s;
+  }
+  .tryIt-button-homePage:hover {
+    animation: animate 10s linear infinite;
+  }
+  .tryIt-button-homePage:hover::before {
+    filter: blur(25px);
+    opacity: .8;
+    animation: animate 10s linear infinite;
+  }
+  @keyframes animate {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+
+
+
+
+/* ######################------Search Page-----###################### */
+
+h1{color: white;}
+
+.dropmenu-field {
+    background: transparent;
+    color: rgb(80, 77, 77);
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: left;
+    border-color: rgb(180, 180, 180);
+    height: 40px;
+  
+   
+}
+
+.albumCover{
+    width: 150px;
+    height: 150px; 
+    border-radius: 5px;
+}
+
+.albumCover:hover{
+    opacity: 0.5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.songInfo, .songLinks{
+    color: white;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+.songLinks:hover{
+    color: #F1067B;
+}
+
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.my-button.search{
+    border: none;
+    width: 140px;
+    background: linear-gradient(90deg, #EC37D0, #D92B2B, #FFAA0D, #EC37D0);
+    background-size: 400%;
+    color: #fff;
+    margin-left: 35px;
+
+}
+.my-button.search:hover {
+    background: linear-gradient(90deg, #9000ff, #2407f9);
+    background-size: 200%;
+    color: #ffffff;
+}
+
+/* ######################------Recommend Page-----###################### */
+
+.recLabels{
+    margin-left: 10px;
+
+}
+.formTable{
+   margin-left: 50px; 
+}
+
+.input-field {
+    width: 66%;
+    background: transparent;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(180, 180, 180);
+    height: 18px;
+}
+
+.my-button {
+    position: relative;
+    cursor: pointer;
+    border-radius: 50px;
+    outline: none;
+    background-size: 400%;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    height: 40px;
+}
+
+.my-button.submit{
+    border: none;
+    width: 140px;
+    background: linear-gradient(90deg, #EC37D0, #D92B2B, #FFAA0D, #EC37D0);
+    background-size: 400%;
+    color: #fff;
+
+
+}
+
+.my-button.clear{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-size: 400%;
+    width: 100px;
+}
+
+.my-button.submit:hover {
+    background: linear-gradient(90deg, #9000ff, #2407f9);
+    background-size: 200%;
+    color: #ffffff;
+}
+.my-button.clear:hover {
+    background-color:white;
+    background-size: 200%;
+    color: #141414;
+}
+
+#genreOption {
+    background: transparent;
+    color: rgb(80, 77, 77);
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 10px;
+    width: 260px;
+    text-align: left;
+    border-color: rgb(180, 180, 180);
+    height: 40px;
+}
+
+.recommendParagraph{
+    text-transform:uppercase;
+    color: white;
+      font-size: 60px;
+      margin-left: 90px;
+      margin-bottom: 350px;
+      text-align: left;
+}
+
+  #formrecommend{
+    margin-top: 150px;
+    margin-left: 180px;
+  }
+
+/* ######################------Browse Page-----###################### */
+
+.topList img{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+    
+}
+.topList li{
+    color: white;
+    margin-left:10px;
+    padding-left:20px;
+    position: relative;
+    left: 30px;
+
+    
+}
+
+.p_in_browse{
+color: white;
+  font-weight: bold;  
+  font-size: 25px; 
+  text-align: left;
+
+}
+
+.horizontal-snap {
+    margin: 0 auto;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1rem;
+    height: calc(200px + 1rem);
+    padding: 1rem;
+    width: 1200px;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    margin-left:0px;
+  }
+  
+  .horizontal-snap > a {
+    scroll-snap-align: center;
+  }
+  
+  .horizontal-snap img {
+    width: 180px;
+    height: 180px;
+    max-width: none;
+    object-fit: contain;
+    border-radius: 1rem;
+  }
+
+ul {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+ul li {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left:10px;
+    padding-left:20px;
+ 
+  }
+  
+  .track-img {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+
+
+  }
+  
+  .track-number {
+    font-size: 13px;   
+
+    color: #a8a8a8;
+    margin-right: 10px;
+    margin-top: 30px;
+
+  }
+  
+  .track-detail_name {
+font-size: 14px;   
+ color: #fff;
+    margin-top: 30px;
+
+  }
+  
+  .track-detail_desc {
+    font-size: 13px;   
+    color: #a8a8a8;
+  }
+

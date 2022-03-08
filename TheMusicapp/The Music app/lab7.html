@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title> Form Example</title>
+  <meta name="keywords" content="HTML">
+</head>
+
+<body>
+
+<form id="form">
+
+<div id="divcolor">
+This is my div
+</div>
+
+<script>
+
+function output(element){
+var color= element.value();
+window.alert(color);
+div.style.backgroundColor=color;
+}
+
+
+function reset(event) {
+div.innerHTML = "this form is reseted";
+   div.style.backgroundColor='grey'; }
+
+
+const form = document.getElementById('form');
+const div=document.getElementById("divcolor");
+form.addEventListener('reset', reset);
+
+</script>
+
+
+<input name="colors" type="radio" value="lavender" onFocus="output(this)">Lavender</input>
+<input name="colors" type="radio" value="pink" onFocus="output(this)">Pink</input>
+<input name="colors" type="radio" value="lightblue"  onFocus="output(this)">Light Blue</input>
+
+
+<br>
+<input name="Send" type="submit" value="Send"></input>
+<input name="Clear" type="reset" value="Clear" ></input>
+
+</form>
+
+</body>
+</html>
